@@ -1,0 +1,2 @@
+prospect_name,company,channel,package,date_sent,status,follow_up_date,call_date,amount_inr,notes
+Example SaaS Founder,Acme Startup,LinkedIn DM,B-rag-chatbot,2026-07-06,sent,2026-07-10,,,Included SupportAI Loom link

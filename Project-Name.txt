@@ -1,0 +1,45 @@
+# 90-Day Scope — Project Priority (Career OS v2.0)
+
+## Tier 1 — Ship and sell (active)
+
+1. AI Recruitment Assistant — deploy + Loom + case study
+2. AI Customer Support Platform — deploy + Loom + case study
+3. yatharth-portfolio — demo URLs, Whilter past tense
+
+## Tier 2 — Resume mention (Week 3 optional)
+
+4. AI Sales Assistant CRM — deploy if T1 stable
+
+## Tier 3 — Narrative only (zero dev)
+
+- TermLens — PARKED (interview story only)
+- IntelliRAG — Whilter private (outcomes only)
+- EduTech — Whilter private
+
+## Tier 4 — Archived
+
+- Ecommerce Website (NexaSpark) — see ARCHIVED.md
+- TeleportAI — see ARCHIVED.md
+- Arena Deathmatch — optional "More builds" link only
+
+---
+
+## REMOVED from 90-day scope (do not build)
+
+~~4. AI Interview Preparation Platform~~  
+~~5. AI Content Generation Workspace~~  
+~~6. AI Project Management Tool~~  
+~~7–10. Tier 3 niche freelancing ideas~~
+
+If you have time for only 2 projects: **RecruitAI + SupportAI** (already built — deploy them).
+
+---
+
+## Stack proof (sufficient for junior–mid full-stack AI roles)
+
+- Next.js, React, TypeScript
+- Node.js / Express, FastAPI exposure
+- PostgreSQL, Prisma
+- Authentication (Clerk, JWT, Supabase)
+- AI/LLM integration, RAG, vector/keyword search
+- Real-world SaaS workflows
