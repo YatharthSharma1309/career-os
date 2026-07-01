@@ -1,0 +1,30 @@
+# Audience Pitches — Sales Engineer Kit
+
+Same project, three audiences. Pick the file that matches who you're talking to.
+
+## RecruitAI
+
+| Audience | File | Use when |
+|----------|------|----------|
+| Recruiter / hiring manager | [recruitai-recruiter.md](./recruitai-recruiter.md) | Applications, interviews |
+| Founder / startup | [recruitai-founder.md](./recruitai-founder.md) | Direct outreach, MVP sales |
+| Client / agency | [recruitai-client.md](./recruitai-client.md) | Freelance proposals |
+
+## SupportAI
+
+| Audience | File | Use when |
+|----------|------|----------|
+| Recruiter / hiring manager | [supportai-recruiter.md](./supportai-recruiter.md) | RAG / full-stack roles |
+| Founder / startup | [supportai-founder.md](./supportai-founder.md) | "Need support AI" leads |
+| Client / agency | [supportai-client.md](./supportai-client.md) | Chatbot freelance package |
+
+## How to use
+
+1. Read the 30-sec elevator aloud before a call
+2. Copy one-liner into cover letter or DM
+3. Link Loom + live demo URL when available
+4. Client pitches pair with [proposal-templates/](../proposal-templates/)
+
+## Whilter private work (NDA)
+
+Do **not** use full pitch packs for EduTech / IntelliRAG. Use verbal 3-bullet stories from [../../05-interview-prep/whilter-stories.md](../../05-interview-prep/whilter-stories.md).
