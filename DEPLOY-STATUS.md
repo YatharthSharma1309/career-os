@@ -1,8 +1,8 @@
-# Deploy Status — Week 1 Sprint
+# Deploy Status
 
 **Last updated:** 2026-06-27
 
-## Vercel projects (provisioned)
+## Vercel projects
 
 | App | Vercel project | Dashboard |
 |-----|----------------|-----------|
@@ -10,97 +10,92 @@
 | SupportAI | `support-ai` | https://vercel.com/yatharthsharma1309s-projects/support-ai |
 | Portfolio | `yatharthsharma` | https://vercel.com/yatharthsharma1309s-projects/yatharthsharma |
 
-Local CLI link: each repo has `.vercel/project.json` after `vercel link`.
+Each repo has `.vercel/project.json` after `vercel link`.
 
-## Current blockers
+---
 
-### RecruitAI — **blocked on Supabase**
+## Blockers
 
-Production build runs `prisma migrate deploy` (Supabase schema). **Fails without `DATABASE_URL` + `DIRECT_URL` on Vercel.**
+### RecruitAI — Supabase required
 
-Last deploy attempt: failed at migrate step (expected).
+Production build runs `prisma migrate deploy`. **Fails without `DATABASE_URL` and `DIRECT_URL` on Vercel.**
 
-**You need:**
+**Steps:**
 
-1. [Supabase](https://supabase.com) project (free tier)
-2. Add env vars on Vercel → recruit-ai → Settings → Environment Variables
-3. Redeploy: `npx vercel --prod` from `AI Recruitment Assistant/`
+1. Create a [Supabase](https://supabase.com) project (free tier)
+2. Add env vars: Vercel → recruit-ai → Settings → Environment Variables  
+   Full list: `AI Recruitment Assistant/VERCEL-DEPLOY.md`
+3. Redeploy from repo root:
 
-### SupportAI — **blocked on Neon + Clerk**
+```powershell
+cd "AI Recruitment Assistant"
+npx vercel --prod
+```
 
-Build runs `prisma migrate deploy`. **Requires production `DATABASE_URL`, Clerk keys, `OPENROUTER_API_KEY`, `APP_URL`.**
+### SupportAI — Neon + Clerk required
 
-Local `.env` has local Postgres only — no Clerk keys configured.
+Build runs `prisma migrate deploy`. **Requires production `DATABASE_URL`, Clerk keys, `OPENROUTER_API_KEY`, and `APP_URL`.**
 
-**You need:**
+**Steps:**
 
-1. [Neon](https://neon.tech) Postgres (pooled URL)
+1. [Neon](https://neon.tech) Postgres (pooled connection string)
 2. [Clerk](https://clerk.com) production app + webhook secret
-3. Env vars on Vercel → support-ai
-4. Redeploy + `POST /api/demo/seed`
+3. Env vars on Vercel → support-ai  
+   Full list: `AI Customer Support Platform/DEPLOY.md`
+4. Redeploy, then seed demo data: `POST /api/demo/seed`
 
-## After both are live
+```powershell
+cd "AI Customer Support Platform"
+npx vercel --prod
+```
 
-Set on **portfolio** Vercel project:
+---
+
+## After demos are live
+
+On the **portfolio** Vercel project, set:
 
 ```
 NEXT_PUBLIC_DEMO_RECRUITAI_URL=https://recruit-ai-xxx.vercel.app
 NEXT_PUBLIC_DEMO_SUPPORTAI_URL=https://support-ai-xxx.vercel.app
 ```
 
-Redeploy portfolio → **View demo** buttons appear.
+Redeploy portfolio → flagship cards show **Live demo** buttons.
 
-## Quick env setup (PowerShell)
+---
 
-From repo root, after creating Supabase/Neon/Clerk:
+## GitHub ↔ Vercel auto-deploy
 
-```powershell
-# RecruitAI
-cd "AI Recruitment Assistant"
-npx vercel env add DATABASE_URL production
-npx vercel env add DIRECT_URL production
-npx vercel env add OPENROUTER_API_KEY production
-npx vercel env add NEXT_PUBLIC_APP_URL production
-# ... see VERCEL-DEPLOY.md for full list
-npx vercel --prod
+If GitHub connect failed during CLI setup, fix in Vercel:
 
-# SupportAI
-cd "AI Customer Support Platform"
-npx vercel env add DATABASE_URL production
-npx vercel env add NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY production
-# ... see DEPLOY.md
-npx vercel --prod
-```
+**Project → Settings → Git → Connect**
 
-Or add env vars in Vercel dashboard (see `AI Recruitment Assistant/VERCEL-DEPLOY.md` and `AI Customer Support Platform/DEPLOY.md`).
+- `YatharthSharma1309/AI-Recruitment-Assistant`
+- `YatharthSharma1309/ai-customer-support-platform`
 
-## GitHub ↔ Vercel
+---
 
-CLI reported GitHub connect failed for both new projects. Fix in Vercel dashboard:
+## Smoke tests
 
-**Project → Settings → Git → Connect** `YatharthSharma1309/AI-Recruitment-Assistant` and `ai-customer-support-platform`.
+### RecruitAI
 
-Enables auto-deploy on push after env vars are set.
-
-## Smoke test checklist
-
-### RecruitAI live
-
-- [ ] Create job
+- [ ] Create job posting
 - [ ] Upload PDF resume
-- [ ] Analyze (OpenRouter key set)
+- [ ] Run AI analysis (OpenRouter key set)
 - [ ] Update pipeline status
 
-### SupportAI live
+### SupportAI
 
-- [ ] Sign up / org
-- [ ] Upload FAQ doc
-- [ ] Chat with citation
-- [ ] Widget embed (optional)
+- [ ] Sign up / create org
+- [ ] Upload knowledge-base document
+- [ ] Chat with grounded citation
+- [ ] (Optional) Widget embed
+
+---
 
 ## Portfolio integration
 
-- [ ] Demo env vars set
+- [ ] Demo env vars set on portfolio Vercel
 - [ ] Portfolio redeployed
-- [ ] Loom recorded ([loom-demo-scripts.md](./loom-demo-scripts.md))
-- [ ] LinkedIn featured updated ([linkedin-kit.md](../02-job-search/linkedin-kit.md))
+- [ ] Loom demos recorded (scripts in [audience-pitches/](./audience-pitches/))
+- [ ] LinkedIn featured section updated ([linkedin-kit.md](./linkedin-kit.md))

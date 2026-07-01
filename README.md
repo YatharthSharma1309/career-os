@@ -1,29 +1,36 @@
-# YCFS — Career & Freelance Studio
+# Career OS
 
-Lean kit from today's YCFS merge. Use with Career OS execution (applications, deploys) — trackers live in your spreadsheet or Notion if needed.
+Lean execution kit for job search, deploys, and outreach. Pair with your application tracker (spreadsheet or Notion).
 
-## Files
+## Contents
 
 | File | Purpose |
 |------|---------|
-| [linkedin-kit.md](./linkedin-kit.md) | Profile, posts, GitHub pins |
-| [DEPLOY-STATUS.md](./DEPLOY-STATUS.md) | RecruitAI + SupportAI Vercel deploy status |
+| [linkedin-kit.md](./linkedin-kit.md) | Profile copy, posts, GitHub pins |
+| [DEPLOY-STATUS.md](./DEPLOY-STATUS.md) | RecruitAI + SupportAI deploy checklist |
 | [audience-pitches/](./audience-pitches/) | Recruiter / founder / client pitches per flagship |
+| [GITHUB_PROFILE.md](./GITHUB_PROFILE.md) | Paste-ready GitHub profile README |
 
-## Session commands
+Deploy guides live in each project repo: `AI Recruitment Assistant/VERCEL-DEPLOY.md`, `AI Customer Support Platform/DEPLOY.md`.
 
-| Command | Open |
-|---------|------|
-| **YCFS → LinkedIn** | [linkedin-kit.md](./linkedin-kit.md) |
-| **YCFS → Client Kit** | [audience-pitches/](./audience-pitches/) |
-| **YCFS → Deploy** | [DEPLOY-STATUS.md](./DEPLOY-STATUS.md) |
+## Weekly rhythm
 
-Deploy guides in project repos: `AI Recruitment Assistant/VERCEL-DEPLOY.md`, `AI Customer Support Platform/DEPLOY.md`.
+| Priority | Action |
+|----------|--------|
+| 1 | Deploy RecruitAI + SupportAI → set portfolio demo env vars |
+| 2 | Record 90s RecruitAI + 2min SupportAI Loom demos |
+| 3 | Execute [linkedin-kit.md](./linkedin-kit.md) checklist |
+| 4 | 50 tailored applications / week |
+| 5 | 5 freelance outreaches / week (from Week 2) |
 
-## Priority
+## Quick links
 
-1. Deploy RecruitAI + SupportAI (see DEPLOY-STATUS)
-2. Set `NEXT_PUBLIC_DEMO_*_URL` on portfolio Vercel
-3. Use audience pitches for outreach; LinkedIn kit for brand
+- Portfolio: https://yatharthsharma.vercel.app
+- GitHub: https://github.com/YatharthSharma1309
+- LinkedIn: https://www.linkedin.com/in/yatharthsharma-ai/
 
-**Targets:** 50 tailored apps/week · 5 freelance outreaches/week (Week 2+)
+## Targets (90 days)
+
+- 220 tailored applications
+- 2 live demo URLs + Loom walkthroughs
+- 1 full-time offer **or** ₹25k+ freelance engagement
