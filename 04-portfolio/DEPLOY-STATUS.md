@@ -72,7 +72,7 @@ npx vercel env add NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY production
 npx vercel --prod
 ```
 
-Or use [vercel-env-setup.ps1](./vercel-env-setup.ps1) as a checklist.
+Or add env vars in Vercel dashboard (see `AI Recruitment Assistant/VERCEL-DEPLOY.md` and `AI Customer Support Platform/DEPLOY.md`).
 
 ## GitHub ↔ Vercel
 
