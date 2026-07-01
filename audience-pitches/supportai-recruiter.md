@@ -21,7 +21,7 @@ I built SupportAI — a multi-tenant customer support SaaS with document ingesti
 
 ## Demo CTA
 
-Live demo: [portfolio demo URL] | GitHub: https://github.com/YatharthSharma1309/ai-customer-support-platform
+Live demo: https://support-ai-nine-mu.vercel.app | Portfolio: https://yatharthsharma.vercel.app | GitHub: https://github.com/YatharthSharma1309/ai-customer-support-platform
 
 ## If they ask "hardest part"
 

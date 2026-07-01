@@ -26,7 +26,7 @@ Your users ask the same questions repeatedly. SupportAI lets you upload FAQs/doc
 
 ## Demo CTA
 
-2-min walkthrough: [Loom URL] | Widget demo: [live demo URL]/widget/embed
+2-min walkthrough: [Loom URL — record using loom-scripts.md] | Widget demo: https://support-ai-nine-mu.vercel.app/widget/embed
 
 ## Objection: "We already use Intercom/Zendesk"
 

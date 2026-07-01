@@ -25,7 +25,7 @@ You need to screen candidates faster without hiring a full recruiting ops team. 
 
 ## Demo CTA
 
-2-min walkthrough: [Loom URL] | Try it: [live demo URL]
+2-min walkthrough: [Loom URL — record using loom-scripts.md] | Try it: https://recruit-ai-blush-beta.vercel.app
 
 ## Objection: "We use an ATS already"
 

@@ -1,101 +1,80 @@
 # Deploy Status
 
-**Last updated:** 2026-06-27
+**Last updated:** 2026-07-01
 
-## Vercel projects
+## Live URLs
 
-| App | Vercel project | Dashboard |
-|-----|----------------|-----------|
-| RecruitAI | `recruit-ai` | https://vercel.com/yatharthsharma1309s-projects/recruit-ai |
-| SupportAI | `support-ai` | https://vercel.com/yatharthsharma1309s-projects/support-ai |
-| Portfolio | `yatharthsharma` | https://vercel.com/yatharthsharma1309s-projects/yatharthsharma |
+| App | Production URL | Vercel project |
+|-----|----------------|----------------|
+| Portfolio | https://yatharthsharma.vercel.app | `yatharthsharma` |
+| RecruitAI | https://recruit-ai-blush-beta.vercel.app | `recruit-ai` |
+| SupportAI | https://support-ai-nine-mu.vercel.app | `support-ai` |
 
-Each repo has `.vercel/project.json` after `vercel link`.
-
----
-
-## Blockers
-
-### RecruitAI — Supabase required
-
-Production build runs `prisma migrate deploy`. **Fails without `DATABASE_URL` and `DIRECT_URL` on Vercel.**
-
-**Steps:**
-
-1. Create a [Supabase](https://supabase.com) project (free tier)
-2. Add env vars: Vercel → recruit-ai → Settings → Environment Variables  
-   Full list: `AI Recruitment Assistant/VERCEL-DEPLOY.md`
-3. Redeploy from repo root:
-
-```powershell
-cd "AI Recruitment Assistant"
-npx vercel --prod
-```
-
-### SupportAI — Neon + Clerk required
-
-Build runs `prisma migrate deploy`. **Requires production `DATABASE_URL`, Clerk keys, `OPENROUTER_API_KEY`, and `APP_URL`.**
-
-**Steps:**
-
-1. [Neon](https://neon.tech) Postgres (pooled connection string)
-2. [Clerk](https://clerk.com) production app + webhook secret
-3. Env vars on Vercel → support-ai  
-   Full list: `AI Customer Support Platform/DEPLOY.md`
-4. Redeploy, then seed demo data: `POST /api/demo/seed`
-
-```powershell
-cd "AI Customer Support Platform"
-npx vercel --prod
-```
+Portfolio demo env vars are set — flagship cards show **Live demo** buttons.
 
 ---
 
-## After demos are live
+## RecruitAI — LIVE
 
-On the **portfolio** Vercel project, set:
+**Database:** Prisma Postgres (`db.prisma.io`) — claim to make permanent:  
+https://create-db.prisma.io/claim?projectID=proj_cmr25sglh2awr0vf8p5rbfjl5
 
-```
-NEXT_PUBLIC_DEMO_RECRUITAI_URL=https://recruit-ai-xxx.vercel.app
-NEXT_PUBLIC_DEMO_SUPPORTAI_URL=https://support-ai-xxx.vercel.app
-```
+**Storage:** Local `/tmp` on Vercel (ephemeral). For reliable PDF uploads, migrate to Supabase Storage per `AI Recruitment Assistant/VERCEL-DEPLOY.md`.
 
-Redeploy portfolio → flagship cards show **Live demo** buttons.
+### Smoke test
 
----
-
-## GitHub ↔ Vercel auto-deploy
-
-If GitHub connect failed during CLI setup, fix in Vercel:
-
-**Project → Settings → Git → Connect**
-
-- `YatharthSharma1309/AI-Recruitment-Assistant`
-- `YatharthSharma1309/ai-customer-support-platform`
+- [x] Homepage loads (200)
+- [x] Production deploy succeeded
+- [x] DB migrated + seeded
+- [ ] Upload PDF on live (verify OpenRouter analyze)
+- [ ] Claim Prisma Postgres database (manual — prevents 24h expiry)
 
 ---
 
-## Smoke tests
+## SupportAI — LIVE (public demo mode)
 
-### RecruitAI
+**Database:** Neon project `SupportAI` (`shy-king-36734093`)
 
-- [ ] Create job posting
-- [ ] Upload PDF resume
-- [ ] Run AI analysis (OpenRouter key set)
-- [ ] Update pipeline status
+**Auth:** `PUBLIC_DEMO_MODE` — Clerk bypassed for recruiter demos. Replace with Clerk keys for real multi-tenant production (see `DEPLOY.md`).
 
-### SupportAI
+### Vercel env (production)
 
-- [ ] Sign up / create org
-- [ ] Upload knowledge-base document
-- [ ] Chat with grounded citation
-- [ ] (Optional) Widget embed
+- `DATABASE_URL` (Neon pooled)
+- `OPENROUTER_API_KEY`, `OPENROUTER_CHAT_MODEL`
+- `PUBLIC_DEMO_MODE=true`, `NEXT_PUBLIC_PUBLIC_DEMO_MODE=true`
+- `AUTH_BYPASS=true`, `NEXT_PUBLIC_AUTH_BYPASS=true`
+- `DEMO_SEED_SECRET`, `APP_URL`
+
+### Smoke test
+
+- [x] `GET /api/health` OK
+- [x] `/dashboard` loads (200)
+- [x] Demo data seeded
+- [ ] Upload doc + chat with citation (manual verify)
+- [ ] Widget embed test
 
 ---
 
 ## Portfolio integration
 
-- [ ] Demo env vars set on portfolio Vercel
-- [ ] Portfolio redeployed
-- [ ] Loom demos recorded (scripts in [audience-pitches/](./audience-pitches/))
-- [ ] LinkedIn featured section updated ([linkedin-kit.md](./linkedin-kit.md))
+- [x] `NEXT_PUBLIC_DEMO_RECRUITAI_URL` set
+- [x] `NEXT_PUBLIC_DEMO_SUPPORTAI_URL` set
+- [x] Portfolio redeployed
+
+---
+
+## Outreach (manual)
+
+- [ ] Record Looms — [loom-scripts.md](./loom-scripts.md)
+- [ ] Execute [linkedin-kit.md](./linkedin-kit.md)
+- [ ] Create GitHub profile README — [GITHUB_PROFILE.md](./GITHUB_PROFILE.md)
+
+---
+
+## Optional upgrades
+
+| Item | When |
+|------|------|
+| Supabase for RecruitAI storage | Reliable PDF upload in prod |
+| Clerk for SupportAI | Real auth + orgs |
+| Claim Prisma DB or move to Supabase Postgres | Before DB expires |

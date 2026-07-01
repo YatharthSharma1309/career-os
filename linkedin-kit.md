@@ -29,13 +29,15 @@ GitHub: https://github.com/YatharthSharma1309
 1. **Portfolio** — https://yatharthsharma.vercel.app  
    Title: `Portfolio — Full-Stack & AI Projects`
 
-2. **RecruitAI Loom** — [add after recording]  
-   Title: `RecruitAI — AI Resume Screening Demo`
+2. **RecruitAI live demo** — https://recruit-ai-blush-beta.vercel.app  
+   Title: `RecruitAI — AI Resume Screening`  
+   _(Replace with Loom URL after recording — see [loom-scripts.md](./loom-scripts.md))_
 
-3. **SupportAI Loom** — [add after recording]  
-   Title: `SupportAI — RAG Customer Support SaaS`
+3. **SupportAI live demo** — https://support-ai-nine-mu.vercel.app  
+   Title: `SupportAI — RAG Customer Support SaaS`  
+   _(Replace with Loom URL after recording)_
 
-4. **Resume PDF** — link from portfolio `/resume` or direct PDF URL
+4. **Resume PDF** — https://yatharthsharma.vercel.app/resume/yatharth-sharma-resume.pdf
 
 ## Banner text (optional overlay)
 

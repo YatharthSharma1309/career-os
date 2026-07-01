@@ -21,7 +21,7 @@ I built RecruitAI — a recruiter dashboard that parses PDF/DOCX resumes, scores
 
 ## Demo CTA
 
-Live demo: [portfolio demo URL] | GitHub: https://github.com/YatharthSharma1309/AI-Recruitment-Assistant
+Live demo: https://recruit-ai-blush-beta.vercel.app | Portfolio: https://yatharthsharma.vercel.app | GitHub: https://github.com/YatharthSharma1309/AI-Recruitment-Assistant
 
 ## If they ask "hardest part"
 
