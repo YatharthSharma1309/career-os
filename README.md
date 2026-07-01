@@ -1,50 +1,29 @@
-# Career OS v2.0 / YCFS
+# YCFS — Career & Freelance Studio
 
-**Career OS** = execution (trackers, deploy, applications). **YCFS** = session commands (`YCFS → Portfolio`, etc.).
+Lean kit from today's YCFS merge. Use with Career OS execution (applications, deploys) — trackers live in your spreadsheet or Notion if needed.
 
-**North star:** 2 live demos (RecruitAI + SupportAI), 50 apps/week, portfolio + LinkedIn — not new projects.
+## Files
 
-## Quick start
+| File | Purpose |
+|------|---------|
+| [linkedin-kit.md](./linkedin-kit.md) | Profile, posts, GitHub pins |
+| [DEPLOY-STATUS.md](./DEPLOY-STATUS.md) | RecruitAI + SupportAI Vercel deploy status |
+| [audience-pitches/](./audience-pitches/) | Recruiter / founder / client pitches per flagship |
 
-1. Whilter offboarding → [02-job-search/whilter-offboarding-checklist.md](./02-job-search/whilter-offboarding-checklist.md)
-2. Deploy demos → [04-portfolio/DEPLOY-STATUS.md](./04-portfolio/DEPLOY-STATUS.md)
-3. Daily → [02-job-search/job-tracker.csv](./02-job-search/job-tracker.csv)
-4. Sunday → [07-weekly-reviews/weekly-review-template.md](./07-weekly-reviews/weekly-review-template.md)
+## Session commands
 
-## YCFS session commands
+| Command | Open |
+|---------|------|
+| **YCFS → LinkedIn** | [linkedin-kit.md](./linkedin-kit.md) |
+| **YCFS → Client Kit** | [audience-pitches/](./audience-pitches/) |
+| **YCFS → Deploy** | [DEPLOY-STATUS.md](./DEPLOY-STATUS.md) |
 
-| Command | Go to |
-|---------|--------|
-| **YCFS → Portfolio** | [04-portfolio/](./04-portfolio/) |
-| **YCFS → Recruiter Kit** | [02-job-search/](./02-job-search/) + [05-interview-prep/](./05-interview-prep/) |
-| **YCFS → Client Kit** | [03-freelance/](./03-freelance/) + [audience-pitches/](./03-freelance/audience-pitches/) |
-| **YCFS → Project: RecruitAI** | [recruitai-case-study.md](./04-portfolio/recruitai-case-study.md) — deploy: `AI Recruitment Assistant/VERCEL-DEPLOY.md` |
-| **YCFS → Project: SupportAI** | [supportai-case-study.md](./04-portfolio/supportai-case-study.md) — deploy: `AI Customer Support Platform/DEPLOY.md` |
-| **YCFS → LinkedIn** | [linkedin-kit.md](./02-job-search/linkedin-kit.md) |
-| **YCFS → Weekly Review** | [07-weekly-reviews/](./07-weekly-reviews/) |
+Deploy guides in project repos: `AI Recruitment Assistant/VERCEL-DEPLOY.md`, `AI Customer Support Platform/DEPLOY.md`.
 
-## Project tiers (90 days)
+## Priority
 
-| Tier | Projects | Action |
-|------|----------|--------|
-| T1 | RecruitAI, SupportAI, portfolio | Deploy + Loom |
-| T2 | Sales CRM | Resume mention; deploy if time |
-| T3 | IntelliRAG, EduTech, TermLens | Interview stories only (NDA) |
-| T4 | NexaSpark, TeleportAI | Do not promote |
-
-## Folder map
-
-| Folder | Purpose |
-|--------|---------|
-| `02-job-search/` | Tracker, resumes, LinkedIn, templates |
-| `03-freelance/` | Packages, proposals, audience pitches |
-| `04-portfolio/` | Case studies, Loom scripts, deploy status |
-| `05-interview-prep/` | STAR stories, system design |
-| `06-networking/` | Referral list |
-| `07-weekly-reviews/` | Sunday reviews |
+1. Deploy RecruitAI + SupportAI (see DEPLOY-STATUS)
+2. Set `NEXT_PUBLIC_DEMO_*_URL` on portfolio Vercel
+3. Use audience pitches for outreach; LinkedIn kit for brand
 
 **Targets:** 50 tailored apps/week · 5 freelance outreaches/week (Week 2+)
-
-## After demos are live
-
-Set on portfolio Vercel: `NEXT_PUBLIC_DEMO_RECRUITAI_URL`, `NEXT_PUBLIC_DEMO_SUPPORTAI_URL` → redeploy.

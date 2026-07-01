@@ -15,7 +15,7 @@ Manual resume screening costs hours per role and produces inconsistent shortlist
 | **Business outcomes** | Consistent scoring criteria tied to JD, not reviewer mood |
 | **Communication** | Clear dashboard — pipeline statuses, notes, audit trail |
 
-## Package (from [packages.md](../packages.md))
+## Package
 
 **Resume Screening Tool** — ₹15,000–25,000 fixed, 1–2 weeks
 
@@ -41,4 +41,4 @@ A: Yes — each job has its own JD for scoring.
 
 ## CTA
 
-Proposal template: [../proposal-templates/package-b-recruitai.md](../proposal-templates/package-b-recruitai.md)
+Email: yatharthsharma1309@gmail.com · Portfolio: https://yatharthsharma.vercel.app

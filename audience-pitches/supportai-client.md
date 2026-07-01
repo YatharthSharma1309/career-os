@@ -15,7 +15,7 @@ Support tickets eat margin. SupportAI deflects repetitive questions with AI grou
 | **Business outcomes** | Widget on site = 24/7 first line without hiring overnight staff |
 | **Communication** | Weekly demo + clear scope doc; async updates |
 
-## Package (from [packages.md](../packages.md))
+## Package
 
 **AI Support Chatbot (RAG)** — ₹20,000–30,000 fixed, 2 weeks
 
@@ -47,4 +47,4 @@ A: Vercel + managed Postgres — I set up; you own accounts.
 
 ## CTA
 
-Proposal template: [../proposal-templates/package-a-rag-chatbot.md](../proposal-templates/package-a-rag-chatbot.md)
+Email: yatharthsharma1309@gmail.com · Portfolio: https://yatharthsharma.vercel.app

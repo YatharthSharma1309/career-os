@@ -23,8 +23,7 @@ Same project, three audiences. Pick the file that matches who you're talking to.
 1. Read the 30-sec elevator aloud before a call
 2. Copy one-liner into cover letter or DM
 3. Link Loom + live demo URL when available
-4. Client pitches pair with [proposal-templates/](../proposal-templates/)
 
 ## Whilter private work (NDA)
 
-Do **not** use full pitch packs for EduTech / IntelliRAG. Use verbal 3-bullet stories from [../../05-interview-prep/whilter-stories.md](../../05-interview-prep/whilter-stories.md).
+Do **not** use full pitch packs for EduTech / IntelliRAG — describe outcomes only in interviews, no proprietary details.
