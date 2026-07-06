@@ -2,13 +2,13 @@
 
 Same project, three audiences. Pick the file that matches who you're talking to.
 
-## OpsAI (flagship)
+## Relay AI (flagship)
 
 | Audience | File | Use when |
 |----------|------|----------|
-| Recruiter / hiring manager | [opsai-recruiter.md](./opsai-recruiter.md) | RAG / full-stack roles |
-| Founder / startup | [opsai-founder.md](./opsai-founder.md) | "Need support AI" or hiring automation leads |
-| Client / agency | [opsai-client.md](./opsai-client.md) | Chatbot or recruitment freelance package |
+| Recruiter / hiring manager | [relay-recruiter.md](./relay-recruiter.md) | RAG / full-stack roles |
+| Founder / startup | [relay-founder.md](./relay-founder.md) | "Need support AI" or hiring automation leads |
+| Client / agency | [relay-client.md](./relay-client.md) | Chatbot or recruitment freelance package |
 
 ## How to use
 

@@ -1,10 +1,10 @@
-# OpsAI — Recruiter Pitch
+# Relay AI — Recruiter Pitch
 
 **Use for:** full-stack / AI integration roles, RAG-focused JDs
 
 ## Elevator (30 sec)
 
-I built OpsAI — a unified multi-tenant AI operations platform with two production modules: customer support (document ingestion, streaming RAG chat with citations, agent inbox, tickets, embeddable widget) and recruitment (resume parsing, JD match scoring, hiring pipeline with hire-safety workflow). It's the strongest example of production-style SaaS + LLM integration in my portfolio.
+I built Relay AI — a unified multi-tenant AI operations platform with two production modules: customer support (document ingestion, streaming RAG chat with citations, agent inbox, tickets, embeddable widget) and recruitment (resume parsing, JD match scoring, hiring pipeline with hire-safety workflow). It's the strongest example of production-style SaaS + LLM integration in my portfolio.
 
 ## What to emphasize
 
@@ -17,11 +17,11 @@ I built OpsAI — a unified multi-tenant AI operations platform with two product
 
 ## One-liner for resume/cover letter
 
-> Built OpsAI: multi-tenant platform with RAG support (KB, streaming chat, widget) and AI recruitment (resume screening, match scores, hiring pipeline) — Next.js, PostgreSQL, Clerk.
+> Built Relay AI: multi-tenant platform with RAG support (KB, streaming chat, widget) and AI recruitment (resume screening, match scores, hiring pipeline) — Next.js, PostgreSQL, Clerk.
 
 ## Demo CTA
 
-Live demo: https://support-ai-nine-mu.vercel.app | Portfolio: https://yatharthsharma.vercel.app | GitHub: https://github.com/YatharthSharma1309/ops-ai
+Live demo: https://support-ai-nine-mu.vercel.app | Portfolio: https://yatharthsharma.vercel.app | GitHub: https://github.com/YatharthSharma1309/relay-ai
 
 ## If they ask "hardest part"
 

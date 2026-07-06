@@ -1,10 +1,10 @@
-# OpsAI — Client Pitch
+# Relay AI — Client Pitch
 
 **Use for:** agencies, D2C brands, SaaS with support volume or hiring needs
 
 ## Elevator (30 sec)
 
-Support tickets and hiring bottlenecks eat margin. OpsAI deflects repetitive questions with AI grounded in *your* documentation — streaming answers with citations, seamless handoff to agents — plus optional AI resume screening against your job criteria.
+Support tickets and hiring bottlenecks eat margin. Relay AI deflects repetitive questions with AI grounded in *your* documentation — streaming answers with citations, seamless handoff to agents — plus optional AI resume screening against your job criteria.
 
 ## What to emphasize
 

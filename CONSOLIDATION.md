@@ -1,11 +1,11 @@
 # Project consolidation (2026-07-06)
 
-RecruitAI and SupportAI merged into **OpsAI** — one codebase, one deploy.
+RecruitAI and SupportAI merged into **Relay AI** — one codebase, one deploy.
 
 | Before | After |
 |--------|-------|
-| RecruitAI (`AI-Recruitment-Assistant`) | **Merged** into OpsAI `/recruitment` module (repo archived) |
-| SupportAI (`ops-ai`, formerly `ai-customer-support-platform`) | **OpsAI** — support module + recruitment module |
+| RecruitAI (`AI-Recruitment-Assistant`) | **Merged** into Relay AI `/recruitment` module (repo archived) |
+| SupportAI (`relay-ai`, formerly `ai-customer-support-platform`) | **Relay AI** — support module + recruitment module |
 
 ## What was merged (code)
 
@@ -18,7 +18,7 @@ RecruitAI and SupportAI merged into **OpsAI** — one codebase, one deploy.
 ## Live URLs
 
 - Portfolio: https://yatharthsharma.vercel.app
-- OpsAI demo: https://support-ai-nine-mu.vercel.app
+- Relay AI demo: https://support-ai-nine-mu.vercel.app
   - Support: `/dashboard`, `/knowledge`, `/chat`
   - Recruitment: `/recruitment`
 
@@ -28,4 +28,4 @@ RecruitAI and SupportAI merged into **OpsAI** — one codebase, one deploy.
 - [ ] Remove RecruitAI from LinkedIn Featured (if pinned)
 - [ ] Unpin `AI-Recruitment-Assistant` on GitHub
 - [x] GitHub profile README — https://github.com/YatharthSharma1309/YatharthSharma1309
-- [ ] Record OpsAI Loom covering both modules
+- [ ] Record Relay AI Loom covering both modules

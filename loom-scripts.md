@@ -1,14 +1,14 @@
 # Loom Demo Scripts
 
-Record after verifying the live OpsAI demo. Target: **2–3 minutes** covering both modules.
+Record after verifying the live Relay AI demo. Target: **2–3 minutes** covering both modules.
 
-## OpsAI (2–3 minutes)
+## Relay AI (2–3 minutes)
 
-**Title:** OpsAI — Support + Recruitment AI Platform
+**Title:** Relay AI — Support + Recruitment AI Platform
 
 **Script:**
 
-1. (0:00) Open https://support-ai-nine-mu.vercel.app — "OpsAI is my unified AI operations platform — support and recruitment in one multi-tenant workspace."
+1. (0:00) Open https://support-ai-nine-mu.vercel.app — "Relay AI is my unified support and recruitment platform — one multi-tenant workspace for customer AI and hiring."
 2. (0:20) **Support** — Dashboard metrics, Knowledge Base upload, Chat with citation.
 3. (1:00) Widget embed page — "Embeddable support widget for customer sites."
 4. (1:20) **Recruitment** — `/recruitment` → open demo job → upload or view candidate → Run AI analysis → show match score and skill gaps.

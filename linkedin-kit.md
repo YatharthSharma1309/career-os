@@ -16,7 +16,7 @@ Copy-first brand standardization. Skip logo/palette until after first offer.
 ```
 Full-stack developer with production experience at Whilter.AI — React/TypeScript UIs, REST APIs, and LLM integrations on a live AI product.
 
-I ship end-to-end: RAG pipelines, document ingestion, multi-tenant SaaS dashboards, and polished interfaces. Portfolio flagship: OpsAI (unified support + recruitment platform).
+I ship end-to-end: RAG pipelines, document ingestion, multi-tenant SaaS dashboards, and polished interfaces. Portfolio flagship: Relay AI (unified support + recruitment platform).
 
 Open to full-time roles — India and remote-friendly.
 
@@ -29,8 +29,8 @@ GitHub: https://github.com/YatharthSharma1309
 1. **Portfolio** — https://yatharthsharma.vercel.app  
    Title: `Portfolio — Full-Stack & AI Projects`
 
-2. **OpsAI live demo** — https://support-ai-nine-mu.vercel.app  
-   Title: `OpsAI — Support + Recruitment AI Platform`  
+2. **Relay AI live demo** — https://support-ai-nine-mu.vercel.app  
+   Title: `Relay AI — Support + Recruitment AI Platform`  
    _(Replace with Loom URL after recording — see [loom-scripts.md](./loom-scripts.md))_
 
 3. **Resume PDF** — https://yatharthsharma.vercel.app/resume/yatharth-sharma-resume.pdf
@@ -41,7 +41,7 @@ GitHub: https://github.com/YatharthSharma1309
 
 ## GitHub pin order
 
-1. ops-ai (OpsAI)
+1. relay-ai (Relay AI)
 2. ai-sales-assistant-crm
 3. yatharth-portfolio
 4. (optional) arena-deathmatch
@@ -56,10 +56,10 @@ Open to full-time roles (India / remote)
 
 ## Post templates (2/week target)
 
-### Post A — OpsAI demo
+### Post A — Relay AI demo
 
 ```
-Built OpsAI — unified multi-tenant AI ops platform:
+Built Relay AI — unified multi-tenant AI ops platform:
 
 → Support: RAG chat with citations, KB, tickets, widget
 → Recruitment: resume parsing, JD match scoring, hiring pipeline

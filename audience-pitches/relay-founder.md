@@ -1,10 +1,10 @@
-# OpsAI — Founder Pitch
+# Relay AI — Founder Pitch
 
 **Use for:** SaaS founders, "we need support AI yesterday" or hiring automation
 
 ## Elevator (30 sec)
 
-Your team juggles repetitive support tickets and manual resume screening. OpsAI unifies both in one workspace: upload FAQs for cited RAG chat with agent handoff, plus AI resume screening against job criteria with a full hiring pipeline. I shipped the full loop: ingest → chat → escalate → hire.
+Your team juggles repetitive support tickets and manual resume screening. Relay AI unifies both in one workspace: upload FAQs for cited RAG chat with agent handoff, plus AI resume screening against job criteria with a full hiring pipeline. I shipped the full loop: ingest → chat → escalate → hire.
 
 ## What to emphasize
 
@@ -30,4 +30,4 @@ Your team juggles repetitive support tickets and manual resume screening. OpsAI 
 
 ## Objection: "We already use Intercom/Zendesk"
 
-OpsAI is a custom layer — your docs, your branding, your data model. I can scope integration or standalone pilot for one product line.
+Relay AI is a custom layer — your docs, your branding, your data model. I can scope integration or standalone pilot for one product line.

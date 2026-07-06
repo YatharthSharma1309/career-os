@@ -7,19 +7,19 @@
 | App | Production URL | Vercel project |
 |-----|----------------|----------------|
 | Portfolio | https://yatharthsharma.vercel.app | `yatharthsharma` |
-| OpsAI | https://support-ai-nine-mu.vercel.app | `support-ai` |
+| Relay AI | https://support-ai-nine-mu.vercel.app | `support-ai` |
 
-Portfolio flagship card links to OpsAI (support + recruitment modules).
+Portfolio flagship card links to Relay AI (support + recruitment modules).
 
 ---
 
-## OpsAI — LIVE (public demo mode)
+## Relay AI — LIVE (public demo mode)
 
 **Database:** Neon project `SupportAI` (`shy-king-36734093`)
 
 **Modules:** `/dashboard` (support) · `/recruitment` (hiring)
 
-**Auth:** `PUBLIC_DEMO_MODE` — Clerk bypassed for demos. Replace with Clerk keys for real multi-tenant production (see `OpsAI/DEPLOY.md`).
+**Auth:** `PUBLIC_DEMO_MODE` — Clerk bypassed for demos. Replace with Clerk keys for real multi-tenant production (see `Relay AI/DEPLOY.md`).
 
 ### Vercel env (production)
 
@@ -45,22 +45,22 @@ Portfolio flagship card links to OpsAI (support + recruitment modules).
 
 | App | Status | Notes |
 |-----|--------|-------|
-| RecruitAI | Retired 2026-07-06 | Merged into OpsAI `/recruitment`. GitHub repo archived. Vercel `recruit-ai` removed. |
+| RecruitAI | Retired 2026-07-06 | Merged into Relay AI `/recruitment`. GitHub repo archived. Vercel `recruit-ai` removed. |
 
 ---
 
 ## Portfolio integration
 
-- [x] `NEXT_PUBLIC_DEMO_OPSAI_URL` set (OpsAI live URL)
+- [x] `NEXT_PUBLIC_DEMO_RELAY_AI_URL` set (Relay AI live URL)
 - [x] `NEXT_PUBLIC_DEMO_RECRUITAI_URL` removed
-- [x] Portfolio shows OpsAI flagship card
+- [x] Portfolio shows Relay AI flagship card
 - [x] GitHub profile README created
 
 ---
 
 ## Outreach (manual)
 
-- [ ] Record OpsAI Loom (support + recruitment) — [loom-scripts.md](./loom-scripts.md)
+- [ ] Record Relay AI Loom (support + recruitment) — [loom-scripts.md](./loom-scripts.md)
 - [ ] Execute [linkedin-kit.md](./linkedin-kit.md)
 - [ ] Unpin `AI-Recruitment-Assistant` on GitHub if still pinned
 
@@ -70,5 +70,5 @@ Portfolio flagship card links to OpsAI (support + recruitment modules).
 
 | Item | When |
 |------|------|
-| Clerk for OpsAI | Real auth + orgs |
+| Clerk for Relay AI | Real auth + orgs |
 | Widget + KB + recruitment smoke tests on live | Before outreach push |
