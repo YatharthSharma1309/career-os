@@ -16,7 +16,6 @@ Production experience at **Whilter.AI** — shipped React/TypeScript UIs, REST A
 | Project | What it does |
 |---------|----------------|
 | [**SupportAI**](https://github.com/YatharthSharma1309/ai-customer-support-platform) | Multi-tenant RAG support SaaS — ingestion, streaming chat, agent inbox, deflection analytics |
-| [**RecruitAI**](https://github.com/YatharthSharma1309/AI-Recruitment-Assistant) | AI resume screening — JD match scoring, skill gaps, interview questions |
 | [**Sales CRM**](https://github.com/YatharthSharma1309/ai-sales-assistant-crm) | Multi-tenant B2B CRM with OAuth sync and AI follow-ups |
 
 ### Stack
@@ -35,6 +34,5 @@ Production experience at **Whilter.AI** — shipped React/TypeScript UIs, REST A
 ## Pin order (profile → Customize pins)
 
 1. ai-customer-support-platform
-2. AI-Recruitment-Assistant
-3. ai-sales-assistant-crm
-4. yatharth-portfolio
+2. ai-sales-assistant-crm
+3. yatharth-portfolio

@@ -16,7 +16,7 @@ Copy-first brand standardization. Skip logo/palette until after first offer.
 ```
 Full-stack developer with production experience at Whilter.AI — React/TypeScript UIs, REST APIs, and LLM integrations on a live AI product.
 
-I ship end-to-end: RAG pipelines, document ingestion, multi-tenant SaaS dashboards, and polished interfaces. Portfolio projects include SupportAI (RAG support platform) and RecruitAI (AI resume screening).
+I ship end-to-end: RAG pipelines, document ingestion, multi-tenant SaaS dashboards, and polished interfaces. Portfolio flagship: SupportAI (RAG support platform).
 
 Open to full-time roles — India and remote-friendly.
 
@@ -29,15 +29,11 @@ GitHub: https://github.com/YatharthSharma1309
 1. **Portfolio** — https://yatharthsharma.vercel.app  
    Title: `Portfolio — Full-Stack & AI Projects`
 
-2. **RecruitAI live demo** — https://recruit-ai-blush-beta.vercel.app  
-   Title: `RecruitAI — AI Resume Screening`  
+2. **SupportAI live demo** — https://support-ai-nine-mu.vercel.app  
+   Title: `SupportAI — RAG Customer Support SaaS`  
    _(Replace with Loom URL after recording — see [loom-scripts.md](./loom-scripts.md))_
 
-3. **SupportAI live demo** — https://support-ai-nine-mu.vercel.app  
-   Title: `SupportAI — RAG Customer Support SaaS`  
-   _(Replace with Loom URL after recording)_
-
-4. **Resume PDF** — https://yatharthsharma.vercel.app/resume/yatharth-sharma-resume.pdf
+3. **Resume PDF** — https://yatharthsharma.vercel.app/resume/yatharth-sharma-resume.pdf
 
 ## Banner text (optional overlay)
 
@@ -46,10 +42,9 @@ GitHub: https://github.com/YatharthSharma1309
 ## GitHub pin order
 
 1. ai-customer-support-platform (SupportAI)
-2. AI-Recruitment-Assistant (RecruitAI)
-3. ai-sales-assistant-crm
-4. yatharth-portfolio
-5. (optional) arena-deathmatch
+2. ai-sales-assistant-crm
+3. yatharth-portfolio
+4. (optional) arena-deathmatch
 
 ## GitHub profile README (3 lines)
 
@@ -61,21 +56,20 @@ Open to full-time roles (India / remote)
 
 ## Post templates (2/week target)
 
-### Post A — Project demo (week 1: RecruitAI)
+### Post A — SupportAI demo
 
 ```
-Shipped RecruitAI — a recruiter dashboard that:
+Built SupportAI — multi-tenant RAG support SaaS:
 
-→ Parses PDF/DOCX resumes
-→ Scores candidates against your job description
-→ Surfaces skill gaps + interview questions
+→ Upload docs → streaming answers with citations
+→ Embeddable widget for your site
+→ Agent inbox + deflection analytics
 
-Stack: Next.js, Prisma, OpenRouter (server-side)
+Next.js · PostgreSQL · Clerk · OpenRouter
 
-Demo: [Loom or live URL]
-Code: github.com/YatharthSharma1309/AI-Recruitment-Assistant
+[Loom or demo link]
 
-#OpenToWork #FullStack #React #AI
+#RAG #SaaS #FullStack #OpenToWork
 ```
 
 ### Post B — Whilter wrap-up (NDA-safe)
@@ -92,23 +86,7 @@ Portfolio: yatharthsharma.vercel.app
 #OpenToWork #SoftwareEngineer
 ```
 
-### Post C — SupportAI (week 2)
-
-```
-Built SupportAI — multi-tenant RAG support SaaS:
-
-→ Upload docs → streaming answers with citations
-→ Embeddable widget for your site
-→ Agent inbox + deflection analytics
-
-Next.js · PostgreSQL · Clerk · OpenRouter
-
-[Loom or demo link]
-
-#RAG #SaaS #FullStack
-```
-
-### Post D — Learning / craft (optional)
+### Post C — Learning / craft (optional)
 
 ```
 One thing I learned shipping RAG in production:

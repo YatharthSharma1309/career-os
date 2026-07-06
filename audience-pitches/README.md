@@ -2,15 +2,7 @@
 
 Same project, three audiences. Pick the file that matches who you're talking to.
 
-## RecruitAI
-
-| Audience | File | Use when |
-|----------|------|----------|
-| Recruiter / hiring manager | [recruitai-recruiter.md](./recruitai-recruiter.md) | Applications, interviews |
-| Founder / startup | [recruitai-founder.md](./recruitai-founder.md) | Direct outreach, MVP sales |
-| Client / agency | [recruitai-client.md](./recruitai-client.md) | Freelance proposals |
-
-## SupportAI
+## SupportAI (flagship)
 
 | Audience | File | Use when |
 |----------|------|----------|

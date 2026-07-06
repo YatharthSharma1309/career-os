@@ -1,33 +1,15 @@
 # Deploy Status
 
-**Last updated:** 2026-07-01
+**Last updated:** 2026-07-06
 
 ## Live URLs
 
 | App | Production URL | Vercel project |
 |-----|----------------|----------------|
 | Portfolio | https://yatharthsharma.vercel.app | `yatharthsharma` |
-| RecruitAI | https://recruit-ai-blush-beta.vercel.app | `recruit-ai` |
 | SupportAI | https://support-ai-nine-mu.vercel.app | `support-ai` |
 
-Portfolio demo env vars are set — flagship cards show **Live demo** buttons.
-
----
-
-## RecruitAI — LIVE
-
-**Database:** Prisma Postgres (`db.prisma.io`) — claim to make permanent:  
-https://create-db.prisma.io/claim?projectID=proj_cmr25sglh2awr0vf8p5rbfjl5
-
-**Storage:** Local `/tmp` on Vercel (ephemeral). For reliable PDF uploads, migrate to Supabase Storage per `AI Recruitment Assistant/VERCEL-DEPLOY.md`.
-
-### Smoke test
-
-- [x] Homepage loads (200)
-- [x] Production deploy succeeded
-- [x] DB migrated + seeded
-- [ ] Upload PDF on live (verify OpenRouter analyze)
-- [ ] Claim Prisma Postgres database (manual — prevents 24h expiry)
+Portfolio demo env vars — flagship card shows **Live demo** for SupportAI.
 
 ---
 
@@ -55,17 +37,25 @@ https://create-db.prisma.io/claim?projectID=proj_cmr25sglh2awr0vf8p5rbfjl5
 
 ---
 
+## Retired
+
+| App | Status | Notes |
+|-----|--------|-------|
+| RecruitAI | Retired 2026-07-06 | Consolidated into SupportAI as sole flagship SaaS demo. Vercel project `recruit-ai` removed. |
+
+---
+
 ## Portfolio integration
 
-- [x] `NEXT_PUBLIC_DEMO_RECRUITAI_URL` set
 - [x] `NEXT_PUBLIC_DEMO_SUPPORTAI_URL` set
-- [x] Portfolio redeployed
+- [x] `NEXT_PUBLIC_DEMO_RECRUITAI_URL` removed from Vercel portfolio env
+- [x] Portfolio redeployed (RecruitAI card removed)
 
 ---
 
 ## Outreach (manual)
 
-- [ ] Record Looms — [loom-scripts.md](./loom-scripts.md)
+- [ ] Record SupportAI Loom — [loom-scripts.md](./loom-scripts.md)
 - [ ] Execute [linkedin-kit.md](./linkedin-kit.md)
 - [ ] Create GitHub profile README — [GITHUB_PROFILE.md](./GITHUB_PROFILE.md)
 
@@ -75,6 +65,5 @@ https://create-db.prisma.io/claim?projectID=proj_cmr25sglh2awr0vf8p5rbfjl5
 
 | Item | When |
 |------|------|
-| Supabase for RecruitAI storage | Reliable PDF upload in prod |
 | Clerk for SupportAI | Real auth + orgs |
-| Claim Prisma DB or move to Supabase Postgres | Before DB expires |
+| Widget + KB smoke tests on live | Before outreach push |
