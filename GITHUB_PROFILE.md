@@ -15,7 +15,7 @@ Production experience at **Whilter.AI** — shipped React/TypeScript UIs, REST A
 
 | Project | What it does |
 |---------|----------------|
-| [**SupportAI**](https://github.com/YatharthSharma1309/ai-customer-support-platform) | Multi-tenant RAG support SaaS — ingestion, streaming chat, agent inbox, deflection analytics |
+| [**OpsAI**](https://github.com/YatharthSharma1309/ai-customer-support-platform) | Unified AI ops platform — RAG support, recruitment pipeline, multi-tenant SaaS |
 | [**Sales CRM**](https://github.com/YatharthSharma1309/ai-sales-assistant-crm) | Multi-tenant B2B CRM with OAuth sync and AI follow-ups |
 
 ### Stack

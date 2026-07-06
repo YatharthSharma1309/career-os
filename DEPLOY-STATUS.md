@@ -7,17 +7,19 @@
 | App | Production URL | Vercel project |
 |-----|----------------|----------------|
 | Portfolio | https://yatharthsharma.vercel.app | `yatharthsharma` |
-| SupportAI | https://support-ai-nine-mu.vercel.app | `support-ai` |
+| OpsAI | https://support-ai-nine-mu.vercel.app | `support-ai` |
 
-Portfolio demo env vars — flagship card shows **Live demo** for SupportAI.
+Portfolio flagship card links to OpsAI (support + recruitment modules).
 
 ---
 
-## SupportAI — LIVE (public demo mode)
+## OpsAI — LIVE (public demo mode)
 
 **Database:** Neon project `SupportAI` (`shy-king-36734093`)
 
-**Auth:** `PUBLIC_DEMO_MODE` — Clerk bypassed for recruiter demos. Replace with Clerk keys for real multi-tenant production (see `DEPLOY.md`).
+**Modules:** `/dashboard` (support) · `/recruitment` (hiring)
+
+**Auth:** `PUBLIC_DEMO_MODE` — Clerk bypassed for demos. Replace with Clerk keys for real multi-tenant production (see `AI Customer Support Platform/DEPLOY.md`).
 
 ### Vercel env (production)
 
@@ -31,8 +33,10 @@ Portfolio demo env vars — flagship card shows **Live demo** for SupportAI.
 
 - [x] `GET /api/health` OK
 - [x] `/dashboard` loads (200)
-- [x] Demo data seeded
+- [x] `/recruitment` loads (200)
+- [x] Recruitment DB migration applied
 - [ ] Upload doc + chat with citation (manual verify)
+- [ ] Upload resume + analyze on `/recruitment` (manual verify)
 - [ ] Widget embed test
 
 ---
@@ -41,23 +45,24 @@ Portfolio demo env vars — flagship card shows **Live demo** for SupportAI.
 
 | App | Status | Notes |
 |-----|--------|-------|
-| RecruitAI | Retired 2026-07-06 | Consolidated into SupportAI as sole flagship SaaS demo. Vercel project `recruit-ai` removed. |
+| RecruitAI | Retired 2026-07-06 | Merged into OpsAI `/recruitment`. GitHub repo archived. Vercel `recruit-ai` removed. |
 
 ---
 
 ## Portfolio integration
 
-- [x] `NEXT_PUBLIC_DEMO_SUPPORTAI_URL` set
-- [x] `NEXT_PUBLIC_DEMO_RECRUITAI_URL` removed from Vercel portfolio env
-- [x] Portfolio redeployed (RecruitAI card removed)
+- [x] `NEXT_PUBLIC_DEMO_SUPPORTAI_URL` set (OpsAI live URL)
+- [x] `NEXT_PUBLIC_DEMO_RECRUITAI_URL` removed
+- [x] Portfolio shows OpsAI flagship card
+- [x] GitHub profile README created
 
 ---
 
 ## Outreach (manual)
 
-- [ ] Record SupportAI Loom — [loom-scripts.md](./loom-scripts.md)
+- [ ] Record OpsAI Loom (support + recruitment) — [loom-scripts.md](./loom-scripts.md)
 - [ ] Execute [linkedin-kit.md](./linkedin-kit.md)
-- [ ] Create GitHub profile README — [GITHUB_PROFILE.md](./GITHUB_PROFILE.md)
+- [ ] Unpin `AI-Recruitment-Assistant` on GitHub if still pinned
 
 ---
 
@@ -65,5 +70,5 @@ Portfolio demo env vars — flagship card shows **Live demo** for SupportAI.
 
 | Item | When |
 |------|------|
-| Clerk for SupportAI | Real auth + orgs |
-| Widget + KB smoke tests on live | Before outreach push |
+| Clerk for OpsAI | Real auth + orgs |
+| Widget + KB + recruitment smoke tests on live | Before outreach push |
