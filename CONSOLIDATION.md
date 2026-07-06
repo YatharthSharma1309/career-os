@@ -18,7 +18,7 @@ RecruitAI and SupportAI merged into **Relay AI** — one codebase, one deploy.
 ## Live URLs
 
 - Portfolio: https://yatharthsharma.vercel.app
-- Relay AI demo: https://support-ai-nine-mu.vercel.app
+- Relay AI demo: https://relay-ai-app.vercel.app
   - Support: `/dashboard`, `/knowledge`, `/chat`
   - Recruitment: `/recruitment`
 

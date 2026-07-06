@@ -8,7 +8,7 @@ Record after verifying the live Relay AI demo. Target: **2–3 minutes** coverin
 
 **Script:**
 
-1. (0:00) Open https://support-ai-nine-mu.vercel.app — "Relay AI is my unified support and recruitment platform — one multi-tenant workspace for customer AI and hiring."
+1. (0:00) Open https://relay-ai-app.vercel.app — "Relay AI is my unified support and recruitment platform — one multi-tenant workspace for customer AI and hiring."
 2. (0:20) **Support** — Dashboard metrics, Knowledge Base upload, Chat with citation.
 3. (1:00) Widget embed page — "Embeddable support widget for customer sites."
 4. (1:20) **Recruitment** — `/recruitment` → open demo job → upload or view candidate → Run AI analysis → show match score and skill gaps.

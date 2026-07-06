@@ -7,7 +7,7 @@
 | App | Production URL | Vercel project |
 |-----|----------------|----------------|
 | Portfolio | https://yatharthsharma.vercel.app | `yatharthsharma` |
-| Relay AI | https://support-ai-nine-mu.vercel.app | `support-ai` |
+| Relay AI | https://relay-ai-app.vercel.app | `relay-ai` |
 
 Portfolio flagship card links to Relay AI (support + recruitment modules).
 
@@ -15,7 +15,7 @@ Portfolio flagship card links to Relay AI (support + recruitment modules).
 
 ## Relay AI — LIVE (public demo mode)
 
-**Database:** Neon project `SupportAI` (`shy-king-36734093`)
+**Database:** Neon project `relay-ai` (`shy-king-36734093`)
 
 **Modules:** `/dashboard` (support) · `/recruitment` (hiring)
 

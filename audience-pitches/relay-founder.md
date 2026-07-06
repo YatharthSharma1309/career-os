@@ -26,7 +26,7 @@ Your team juggles repetitive support tickets and manual resume screening. Relay 
 
 ## Demo CTA
 
-2-min walkthrough: [Loom URL — record using loom-scripts.md] | Live: https://support-ai-nine-mu.vercel.app
+2-min walkthrough: [Loom URL — record using loom-scripts.md] | Live: https://relay-ai-app.vercel.app
 
 ## Objection: "We already use Intercom/Zendesk"
 

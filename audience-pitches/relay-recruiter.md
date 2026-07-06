@@ -21,7 +21,7 @@ I built Relay AI — a unified multi-tenant AI operations platform with two prod
 
 ## Demo CTA
 
-Live demo: https://support-ai-nine-mu.vercel.app | Portfolio: https://yatharthsharma.vercel.app | GitHub: https://github.com/YatharthSharma1309/relay-ai
+Live demo: https://relay-ai-app.vercel.app | Portfolio: https://yatharthsharma.vercel.app | GitHub: https://github.com/YatharthSharma1309/relay-ai
 
 ## If they ask "hardest part"
 

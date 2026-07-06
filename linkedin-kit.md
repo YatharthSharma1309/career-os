@@ -29,7 +29,7 @@ GitHub: https://github.com/YatharthSharma1309
 1. **Portfolio** — https://yatharthsharma.vercel.app  
    Title: `Portfolio — Full-Stack & AI Projects`
 
-2. **Relay AI live demo** — https://support-ai-nine-mu.vercel.app  
+2. **Relay AI live demo** — https://relay-ai-app.vercel.app  
    Title: `Relay AI — Support + Recruitment AI Platform`  
    _(Replace with Loom URL after recording — see [loom-scripts.md](./loom-scripts.md))_
 
