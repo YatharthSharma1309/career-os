@@ -1,8 +1,8 @@
 # GitHub Profile README
 
-Create a public repo named **`YatharthSharma1309`** (same as your username) with a `README.md` at the root. GitHub will display it on your profile.
+**Live:** https://github.com/YatharthSharma1309/YatharthSharma1309 (profile README repo)
 
-## Paste-ready README.md
+To edit, clone `YatharthSharma1309/YatharthSharma1309` and update `README.md`.
 
 ```markdown
 ## Hi, I'm Yatharth Sharma

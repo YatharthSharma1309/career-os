@@ -28,4 +28,6 @@ Recruitment features (resume screening, JD scoring) were **not** ported into Sup
 
 - [ ] Remove RecruitAI from LinkedIn Featured (if pinned)
 - [ ] Unpin `AI-Recruitment-Assistant` on GitHub profile
+- [x] GitHub profile README created — https://github.com/YatharthSharma1309/YatharthSharma1309
+- [ ] Pin repos: `ai-customer-support-platform`, `ai-sales-assistant-crm`, `yatharth-portfolio`
 - [ ] Record SupportAI Loom — [loom-scripts.md](./loom-scripts.md)
