@@ -15,7 +15,7 @@ Production experience at **Whilter.AI** — shipped React/TypeScript UIs, REST A
 
 | Project | What it does |
 |---------|----------------|
-| [**OpsAI**](https://github.com/YatharthSharma1309/ai-customer-support-platform) | Unified AI ops platform — RAG support, recruitment pipeline, multi-tenant SaaS |
+| [**OpsAI**](https://github.com/YatharthSharma1309/ops-ai) | Unified AI ops platform — RAG support, recruitment pipeline, multi-tenant SaaS |
 | [**Sales CRM**](https://github.com/YatharthSharma1309/ai-sales-assistant-crm) | Multi-tenant B2B CRM with OAuth sync and AI follow-ups |
 
 ### Stack
@@ -33,6 +33,6 @@ Production experience at **Whilter.AI** — shipped React/TypeScript UIs, REST A
 
 ## Pin order (profile → Customize pins)
 
-1. ai-customer-support-platform
+1. ops-ai
 2. ai-sales-assistant-crm
 3. yatharth-portfolio

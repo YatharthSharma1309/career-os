@@ -19,7 +19,7 @@ Portfolio flagship card links to OpsAI (support + recruitment modules).
 
 **Modules:** `/dashboard` (support) · `/recruitment` (hiring)
 
-**Auth:** `PUBLIC_DEMO_MODE` — Clerk bypassed for demos. Replace with Clerk keys for real multi-tenant production (see `AI Customer Support Platform/DEPLOY.md`).
+**Auth:** `PUBLIC_DEMO_MODE` — Clerk bypassed for demos. Replace with Clerk keys for real multi-tenant production (see `OpsAI/DEPLOY.md`).
 
 ### Vercel env (production)
 
@@ -51,7 +51,7 @@ Portfolio flagship card links to OpsAI (support + recruitment modules).
 
 ## Portfolio integration
 
-- [x] `NEXT_PUBLIC_DEMO_SUPPORTAI_URL` set (OpsAI live URL)
+- [x] `NEXT_PUBLIC_DEMO_OPSAI_URL` set (OpsAI live URL)
 - [x] `NEXT_PUBLIC_DEMO_RECRUITAI_URL` removed
 - [x] Portfolio shows OpsAI flagship card
 - [x] GitHub profile README created

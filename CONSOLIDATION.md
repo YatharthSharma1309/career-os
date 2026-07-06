@@ -5,7 +5,7 @@ RecruitAI and SupportAI merged into **OpsAI** — one codebase, one deploy.
 | Before | After |
 |--------|-------|
 | RecruitAI (`AI-Recruitment-Assistant`) | **Merged** into OpsAI `/recruitment` module (repo archived) |
-| SupportAI (`ai-customer-support-platform`) | **OpsAI** — support module + recruitment module |
+| SupportAI (`ops-ai`, formerly `ai-customer-support-platform`) | **OpsAI** — support module + recruitment module |
 
 ## What was merged (code)
 

@@ -13,7 +13,7 @@ Lean execution kit for job search, deploys, and outreach. Pair with your applica
 | [GITHUB_PROFILE.md](./GITHUB_PROFILE.md) | Paste-ready GitHub profile README |
 | [loom-scripts.md](./loom-scripts.md) | OpsAI Loom recording script (2–3 min) |
 
-Deploy guide: `AI Customer Support Platform/DEPLOY.md`.
+Deploy guide: `OpsAI/DEPLOY.md`.
 
 ## Weekly rhythm
 

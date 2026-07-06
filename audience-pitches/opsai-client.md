@@ -1,10 +1,10 @@
-# SupportAI — Client Pitch
+# OpsAI — Client Pitch
 
-**Use for:** agencies, D2C brands, SaaS with support volume
+**Use for:** agencies, D2C brands, SaaS with support volume or hiring needs
 
 ## Elevator (30 sec)
 
-Support tickets eat margin. SupportAI deflects repetitive questions with AI grounded in *your* documentation — streaming answers with citations, seamless handoff to agents, and metrics so you see what's working.
+Support tickets and hiring bottlenecks eat margin. OpsAI deflects repetitive questions with AI grounded in *your* documentation — streaming answers with citations, seamless handoff to agents — plus optional AI resume screening against your job criteria.
 
 ## What to emphasize
 
@@ -12,19 +12,20 @@ Support tickets eat margin. SupportAI deflects repetitive questions with AI grou
 |-----------------|------------|
 | **ROI** | Deflection rate tracking built in — measure tickets avoided |
 | **Time saved** | Agents get copilot-suggested replies from KB + transcript |
-| **Business outcomes** | Widget on site = 24/7 first line without hiring overnight staff |
+| **Hiring** | Resume upload → match score → pipeline status in one dashboard |
 | **Communication** | Weekly demo + clear scope doc; async updates |
 
 ## Package
 
-**AI Support Chatbot (RAG)** — ₹20,000–30,000 fixed, 2 weeks
+**AI Ops Platform (Support + optional Recruitment)** — ₹25,000–40,000 fixed, 2–3 weeks
 
 **Deliverables:**
 
 - Knowledge base upload (PDF/DOCX/TXT/MD)
 - Streaming chat with source citations
 - Embeddable widget for your site
-- Admin dashboard (conversations, basic analytics)
+- Admin dashboard (conversations, analytics)
+- Optional: recruitment module (jobs, resume screening, pipeline)
 - Deployment handoff
 
 **Timeline:**
@@ -32,7 +33,7 @@ Support tickets eat margin. SupportAI deflects repetitive questions with AI grou
 | Week | Milestone |
 |------|-----------|
 | 1 | Ingestion + admin chat + deploy |
-| 2 | Widget embed + polish + training call |
+| 2 | Widget embed + recruitment module (if scoped) + training call |
 
 ## FAQ snippets
 

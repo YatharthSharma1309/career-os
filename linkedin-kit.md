@@ -41,7 +41,7 @@ GitHub: https://github.com/YatharthSharma1309
 
 ## GitHub pin order
 
-1. ai-customer-support-platform (OpsAI)
+1. ops-ai (OpsAI)
 2. ai-sales-assistant-crm
 3. yatharth-portfolio
 4. (optional) arena-deathmatch

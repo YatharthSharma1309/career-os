@@ -2,13 +2,13 @@
 
 Same project, three audiences. Pick the file that matches who you're talking to.
 
-## SupportAI (flagship)
+## OpsAI (flagship)
 
 | Audience | File | Use when |
 |----------|------|----------|
-| Recruiter / hiring manager | [supportai-recruiter.md](./supportai-recruiter.md) | RAG / full-stack roles |
-| Founder / startup | [supportai-founder.md](./supportai-founder.md) | "Need support AI" leads |
-| Client / agency | [supportai-client.md](./supportai-client.md) | Chatbot freelance package |
+| Recruiter / hiring manager | [opsai-recruiter.md](./opsai-recruiter.md) | RAG / full-stack roles |
+| Founder / startup | [opsai-founder.md](./opsai-founder.md) | "Need support AI" or hiring automation leads |
+| Client / agency | [opsai-client.md](./opsai-client.md) | Chatbot or recruitment freelance package |
 
 ## How to use
 
